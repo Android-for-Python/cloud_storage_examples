@@ -3,7 +3,7 @@ REST Firestore Example
 
 # Overview
 
-The example is as much for reading as executing. It runs in two passes.
+The example is as much for reading as executing. It executess in two passes.
 
 The first pass validates user creation, login, and basic Firestore operations, and saves public and private documents. Close or pause the app. You can view the contents of saved documents in Firebase.
 
@@ -18,7 +18,7 @@ Assuming you have created and initialized a Firebase project
 
 ## Specify the project ID and Key
 
-Get the "apiKey" and "Project ID" for your project from "Firebase->Project Overview->Project settings->General" and replace these placeholders in `main.py`:
+Get the `apiKey` and `Project ID` for your project from `Firebase->Project Overview->Project settings->General` and replace these placeholders in `main.py`:
 ```
 APIKEY = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 PROJECT_ID = 'bbbbbbbbbb'
@@ -26,7 +26,7 @@ PROJECT_ID = 'bbbbbbbbbb'
 
 ## Specify the Firestore Database Rules:
 
-In "Firebase->Build->Firestore Database->Rules" replace the default rules with these rules, then publish.
+In `Firebase->Build->Firestore Database->Rules` replace the default rules with these rules, then publish.
 
 ```
 service cloud.firestore {
