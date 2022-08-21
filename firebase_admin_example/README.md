@@ -3,7 +3,7 @@ Firebase_admin Example
 
 ## Setup
 
-Get a service account key from "Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key" and save the downloaded file as './service_account_key.json'.
+Get a service account key from `Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key` and save the downloaded file as `./service_account_key.json`.
 
 Google tells you: **Your private key gives access to your project's Firebase services. Keep it confidential and never store it in a public repository.**
 
@@ -23,6 +23,8 @@ pip3 install firebase-admin
 
 ### Buildozer
 
+Add json to the incuded file types.
+
 ```
 source.include_exts = py,png,jpg,kv,atlas,json
 
@@ -33,4 +35,4 @@ android.permissions = INTERNET
 
 ### kivy-ios
 
-firebase-admin does not run on ios, `ModuleNotFoundError: No module named 'mmap'`.
+As of 2022/08 firebase-admin does not run on ios, the issue is `ModuleNotFoundError: No module named 'mmap'`.
