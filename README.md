@@ -38,16 +38,16 @@ This checklist is not a substitute for reading the Firebase documentation. See t
  - Realtime Database->Create Database
    - Select a geographic location for the server.
    - Select default security rules (it doesn't matter).
-   - Edit and publish new security rules, use the [Pyrebase4 Example Rules]().
+   - Edit and publish new security rules, use the [Pyrebase4 Example Rules](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/pyrebase4_example#specify-the-realtime-database-rules).
 
  - Firestore Database->Create Database
    - Select security rules (it doesn't matter).
-   - Edit and publish new security rules, use the [Firestore Example Rules]().
+   - Edit and publish new security rules, use the [Firestore Example Rules](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/rest_firestore_example#specify-the-firestore-database-rules).
    - Select a geographic location for the server.
    - Allow a few minutes for changes to propagate.
 
  - Firebase Admin
-   - Get a service account key from "Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key" and save the downloaded file. See [Firebase Admin Example]().
+   - Get a service account key from "Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key" and save the downloaded file. See [Firebase Admin Example](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/firebase_admin_example#setup).
 
 
 
