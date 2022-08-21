@@ -47,7 +47,7 @@ This checklist is not a substitute for reading the Firebase documentation. See t
    - Allow a few minutes for changes to propagate.
 
  - Firebase Admin
-   - Get a service account key from "Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key" and save the downloaded file. See [Firebase Admin Example](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/firebase_admin_example#setup).
+   - Get a service account key from `Firebase->Project Overview->Project Settings->Service Accounts->Generate new private key->Generate key` and save the downloaded file. See [Firebase Admin Example](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/firebase_admin_example#setup).
 
 
 
