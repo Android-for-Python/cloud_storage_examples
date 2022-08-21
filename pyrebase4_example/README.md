@@ -3,14 +3,14 @@ Pyrebase4 Example
 
 # Setup
 
-Assuming you have created and initialized a Firebase project (see parent directory):
- - Specify the project ID and Key in main.py.
+Assuming you have created and initialized a Firebase project:
+ - Specify the project ID and Key in `main.py`.
  - Specify the Realtime Database Rules.
  - Install the dependencies.
 
 ## Specify the project ID and Key
 
-Get the "apiKey" and "Project ID" for your project from "Firebase->Project Overview->Project settings->General" and replace these placeholders in `main.py`:
+Get the "apiKey" and "Project ID" for your project from `Firebase->Project Overview->Project settings->General` and replace these placeholders in `main.py`:
 ```
 APIKEY = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 PROJECT_ID = 'bbbbbbbbbb'
@@ -68,4 +68,4 @@ android.permissions = INTERNET
 
 ### kivy-ios
 
-Does not run on kivy-ios due to no pycryptodome recipe.
+As of 2022/08 the Pyrebase4 does not run on kivy-ios. The error message is `OSError: Cannot load native module 'Crypto.Hash._SHA256'.....` and it is due to the loack of a pycryptodome recipe.
