@@ -32,8 +32,8 @@ This checklist is not a substitute for reading the Firebase documentation. See t
  - Create a Firebase account and project.
    - This generates the Project ID you will need for client apps.
 
- - Build->Authentication->Get started->sign-in method->Email/Password->Enable->Save
-   - This generates the ApiKey you will need for client apps.
+ - Create API key
+   - `Build->Authentication->Get started->sign-in method->Email/Password->Enable->Save`
 
  - Realtime Database->Create Database
    - Select a geographic location for the server.
