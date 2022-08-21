@@ -68,4 +68,4 @@ android.permissions = INTERNET
 
 ### kivy-ios
 
-As of 2022/08 the Pyrebase4 does not run on kivy-ios. The error message is `OSError: Cannot load native module 'Crypto.Hash._SHA256'.....` and it is due to the loack of a pycryptodome recipe.
+As of 2022/08 Pyrebase4 does not run on kivy-ios. The error message is `OSError: Cannot load native module 'Crypto.Hash._SHA256'.....` and it is due to the lack of a pycryptodome recipe.
