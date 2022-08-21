@@ -3,7 +3,9 @@ REST Firestore Example
 
 # Overview
 
-The example is as much for reading as executing. It executess in two passes.
+The example is as much for reading as executing. The example depends on [firestore4kivy](https://github.com/Android-for-Python/firestore4kivy).
+
+The example executes in two passes.
 
 The first pass validates user creation, login, and basic Firestore operations, and saves public and private documents. Close or pause the app. You can view the contents of saved documents in Firebase.
 
