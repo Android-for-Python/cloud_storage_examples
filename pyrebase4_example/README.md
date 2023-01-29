@@ -61,7 +61,7 @@ pip3 install pyrebase4
 ### Buildozer
 
 ```
-requirements = python3,kivy, pyrebase4, gcloud, googleapis-common-protos, protobuf, httplib2, pyparsing, oauth2client, pyasn1, pyasn1-modules, rsa, pycryptodome, python-jwt, jws, requests, certifi, charset-normalizer, idna, urllib3, requests-toolbelt , jwcrypto, cryptography, deprecated, wrapt
+requirements = python3,kivy, pyrebase4, gcloud, googleapis-common-protos, protobuf, httplib2, pyparsing, oauth2client, pyasn1, pyasn1-modules, rsa, pycryptodome, python-jwt, jws, requests, certifi, charset-normalizer==2.1.1, idna, urllib3, requests-toolbelt , jwcrypto, cryptography, deprecated, wrapt
 
 android.permissions = INTERNET
 ```

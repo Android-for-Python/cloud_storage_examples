@@ -28,7 +28,7 @@ Add json to the incuded file types.
 ```
 source.include_exts = py,png,jpg,kv,atlas,json
 
-requirements = python3,kivy, firebase-admin, cachecontrol, msgpack, requests, certifi, charset-normalizer, idna, urllib3, google-api-core, google-auth, cachetools, pyasn1-modules, pyasn1, rsa, pyasn1, googleapis-common-protos, protobuf, google-api-python-client, google-auth-httplib2, httplib2, pyparsing, uritemplate, google-cloud-firestore, google-cloud-core, proto-plus, google-cloud-storage, google-resumable-media, google-crc32c
+requirements = python3,kivy, firebase-admin, cachecontrol, msgpack, requests, certifi, charset-normalizer==2.1.1, idna, urllib3, google-api-core, google-auth, cachetools, pyasn1-modules, pyasn1, rsa, pyasn1, googleapis-common-protos, protobuf, google-api-python-client, google-auth-httplib2, httplib2, pyparsing, uritemplate, google-cloud-firestore, google-cloud-core, proto-plus, google-cloud-storage, google-resumable-media, google-crc32c
 
 android.permissions = INTERNET
 ```
