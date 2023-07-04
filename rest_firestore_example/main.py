@@ -18,8 +18,6 @@ from firestore4kivy import Authorize, Firestore, GeoPoint, TimeStamp, Reference
 # Replace these placeholders
 APIKEY = 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
 PROJECT_ID = 'bbbbbbbbbb'
-APIKEY = 'AIzaSyDAoA3Bf1qCD0zpygPvjpeFpvGXSYmcD9E'
-PROJECT_ID = 'test-285db'
 #######################################################################
 
 #######################################################################
