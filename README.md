@@ -3,6 +3,8 @@ Cloud Storage Examples
 
 *Google Realtime Database, Firestore Database, and Firebase Admin*
 
+**2023-11-13 This repository is archived.**
+
 The directory contains three examples, two client examples and one admin example.
 
 For Realtime Database use the [pyrebase4_example](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/pyrebase4_example). For Firestore use the [rest_firestore_example](https://github.com/Android-for-Python/cloud_storage_examples/tree/main/rest_firestore_example), this uses [firestore4kivy](https://github.com/Android-for-Python/firestore4kivy) a Python API around Firestore's REST API. 
